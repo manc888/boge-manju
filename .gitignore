@@ -1,0 +1,23 @@
+# 第三方参考资料目录：许可未明确，默认不随公开仓库发布
+# 这些资料仅保留在本地（H:/sikll/boge-manju/references/），本地使用时不影响任何能力
+references/
+
+# 若你确认要公开其中某项，在下方对应行前加 # 取消忽略即可
+# !references/vendor-laoli/     # 漫剧老李 V7.4.20（MIT，可再分发，需保留其 LICENSE）
+
+# 系统与编辑器垃圾
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志与临时产物
+*.log
+tmp/
+temp/
